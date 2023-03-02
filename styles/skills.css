@@ -1,0 +1,45 @@
+#skills {
+    grid-area: s;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 80% 20%;
+}
+
+#techs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+.langs{
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.langs:hover{
+    background-color: #bbbbbb;
+}
+
+.names{
+    display: none;
+}
+
+.namesDesc{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.namesDesc div{
+    display: flex;
+    justify-content: center;
+}
+
+.imgs{
+    width: 20px;
+    margin-right: 5px;
+}
