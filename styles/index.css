@@ -9,12 +9,14 @@ body {
 header {
     grid-area: header;
     display: flex;
-    height: 8vh;
+    min-height: 8vh;
     background-color: #060a1a;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     color: white;
+    z-index: 1;
 }
 
 #mainSection {

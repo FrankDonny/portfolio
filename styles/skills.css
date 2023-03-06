@@ -25,7 +25,6 @@
 .langs:hover{
     background-color: #dcdcdc;
     transition-property: background-color;
-    /* transition-duration: 1s; */
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
 }
