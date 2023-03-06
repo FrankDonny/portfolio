@@ -10,10 +10,11 @@ header {
     grid-area: header;
     display: flex;
     height: 8vh;
-    background-color: rgb(231, 185, 138);
+    background-color: #060a1a;
     align-items: center;
     position: fixed;
     width: 100%;
+    color: white;
 }
 
 #mainSection {
@@ -22,7 +23,7 @@ header {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 92vh 92vh 92vh;
-    grid-template-areas: 'b a' 'b s' 'b c';
+    grid-template-areas: 'b s' 'b a' 'b c';
     position: relative;
     overflow: auto;
 }
@@ -45,7 +46,7 @@ header {
     #mainSection {
         grid-template-columns: 100%;
         grid-template-rows: 92vh 92vh 92vh 92vh;
-        grid-template-areas: 'b' 'a' 's' 'c';
+        grid-template-areas: 'b' 's' 'a' 'c';
     }
 
     #brief {

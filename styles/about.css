@@ -1,23 +1,23 @@
 #about {
     grid-area: a;
-    background-color: #474747;
+    background-color: #767eb8;
     padding: 10px;
-    color: #fdb;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#about h1{
+#about h1 {
     font-size: 2.5rem;
 }
 
-#about h3{
+#about h3 {
     font-size: 1.4rem;
 }
 
 #about li,
-#about p{
+#about p {
     font-size: 1.1rem;
 }

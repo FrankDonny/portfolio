@@ -1,6 +1,6 @@
 #skills {
     grid-area: s;
-    background-color: white;
+    background-color: #c0c7fa;
     display: grid;
     grid-template-rows: 80% 20%;
 }
@@ -14,24 +14,31 @@
 }
 
 .langs{
-    background-color: #cccccc;
+    background-color: #060a1a;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px;
+    border-radius: 5px;
 }
 
 .langs:hover{
-    background-color: #bbbbbb;
+    background-color: #dcdcdc;
+    transition-property: background-color;
+    /* transition-duration: 1s; */
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
 }
 
 .names{
-    display: none;
+    display:flex;
+    color: whitesmoke;
 }
 
 .namesDesc{
     font-size: 0.8rem;
     text-align: center;
+    display: none;
 }
 
 .namesDesc div{

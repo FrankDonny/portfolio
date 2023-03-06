@@ -1,4 +1,40 @@
 #contact {
     grid-area: c;
-    background-color: rgb(182, 182, 182);
+    background-color: #50578d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner button{
+    width: 150px;
+    height: 23px;
+    border-radius: 20px;
+    border: none;
+    background-color: #c0c7fa;
+    color: #006eff;
+    margin: 10px 0;
+    cursor: pointer;
+    /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.562); */
+}
+#inner button:hover{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.20);
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+#inner h1{
+    margin-bottom: 20px;
+}
+
+#inner h2{
+    color: #545b91;
+}
+
+#inner{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
 }
